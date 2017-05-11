@@ -29,6 +29,7 @@ Partial Class LoginForm1
         Me.Label2 = New System.Windows.Forms.Label
         Me.OK = New System.Windows.Forms.Button
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.box = New System.Windows.Forms.Label
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -94,11 +95,21 @@ Partial Class LoginForm1
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
         '
+        'box
+        '
+        Me.box.AutoSize = True
+        Me.box.Location = New System.Drawing.Point(133, 220)
+        Me.box.Name = "box"
+        Me.box.Size = New System.Drawing.Size(0, 13)
+        Me.box.TabIndex = 42
+        Me.box.Visible = False
+        '
         'LoginForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(453, 375)
+        Me.Controls.Add(Me.box)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PasswordTextBox)
@@ -123,5 +134,6 @@ Partial Class LoginForm1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PasswordTextBox As System.Windows.Forms.TextBox
     Friend WithEvents txtUsername As System.Windows.Forms.TextBox
+    Friend WithEvents box As System.Windows.Forms.Label
 
 End Class

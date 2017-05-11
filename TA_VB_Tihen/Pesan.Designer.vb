@@ -22,7 +22,8 @@ Partial Class Pesan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label
+        Dim MenuStrip1 As System.Windows.Forms.MenuStrip
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Pesan))
         Me.txtKembali = New System.Windows.Forms.Label
         Me.lbljmlgreentea = New System.Windows.Forms.Label
         Me.txtjmlgreentea = New System.Windows.Forms.TextBox
@@ -61,27 +62,19 @@ Partial Class Pesan
         Me.checkChochoOreo = New System.Windows.Forms.CheckBox
         Me.GroupBox5 = New System.Windows.Forms.GroupBox
         Me.btnReset = New System.Windows.Forms.Button
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
         Me.Label2 = New System.Windows.Forms.Label
         Me.txtnama = New System.Windows.Forms.TextBox
+        Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.MemberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.DaftarMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox
+        MenuStrip1 = New System.Windows.Forms.MenuStrip
         Me.Hasil.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Poplar Std", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(263, 47)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(145, 32)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Order Customer"
         '
         'txtKembali
         '
@@ -456,43 +449,6 @@ Partial Class Pesan
         Me.btnReset.Text = "Reset"
         Me.btnReset.UseVisualStyleBackColor = True
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.TA_VB_Tihen.My.Resources.Resources.logo
-        Me.PictureBox1.Location = New System.Drawing.Point(70, 26)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(152, 64)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 16
-        Me.PictureBox1.TabStop = False
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(352, 21)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(85, 23)
-        Me.Button3.TabIndex = 52
-        Me.Button3.Text = "Daftar Menu"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(443, 21)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(79, 23)
-        Me.Button4.TabIndex = 51
-        Me.Button4.Text = "Member"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(269, 21)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(77, 23)
-        Me.Button5.TabIndex = 50
-        Me.Button5.Text = "Home"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -509,18 +465,76 @@ Partial Class Pesan
         Me.txtnama.Size = New System.Drawing.Size(151, 20)
         Me.txtnama.TabIndex = 24
         '
+        'MenuStrip1
+        '
+        MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TransaksiToolStripMenuItem, Me.MemberToolStripMenuItem, Me.DaftarMenuToolStripMenuItem})
+        MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow
+        MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        MenuStrip1.Margin = New System.Windows.Forms.Padding(100, 10, 10, 10)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        MenuStrip1.Size = New System.Drawing.Size(595, 44)
+        MenuStrip1.TabIndex = 26
+        MenuStrip1.Text = "MenuStrip1"
+        '
+        'TransaksiToolStripMenuItem
+        '
+        Me.TransaksiToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.TransaksiToolStripMenuItem.Image = CType(resources.GetObject("TransaksiToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.TransaksiToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.TransaksiToolStripMenuItem.Margin = New System.Windows.Forms.Padding(150, 10, 10, 10)
+        Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
+        Me.TransaksiToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
+        Me.TransaksiToolStripMenuItem.Text = "Transaksi"
+        Me.TransaksiToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.TransaksiToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'MemberToolStripMenuItem
+        '
+        Me.MemberToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.MemberToolStripMenuItem.AutoToolTip = True
+        Me.MemberToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.MemberToolStripMenuItem.Image = Global.TA_VB_Tihen.My.Resources.Resources.member
+        Me.MemberToolStripMenuItem.Margin = New System.Windows.Forms.Padding(10)
+        Me.MemberToolStripMenuItem.Name = "MemberToolStripMenuItem"
+        Me.MemberToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.MemberToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.MemberToolStripMenuItem.Text = "Member"
+        Me.MemberToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.MemberToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'DaftarMenuToolStripMenuItem
+        '
+        Me.DaftarMenuToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.DaftarMenuToolStripMenuItem.Image = Global.TA_VB_Tihen.My.Resources.Resources.menu
+        Me.DaftarMenuToolStripMenuItem.Margin = New System.Windows.Forms.Padding(10)
+        Me.DaftarMenuToolStripMenuItem.Name = "DaftarMenuToolStripMenuItem"
+        Me.DaftarMenuToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.DaftarMenuToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
+        Me.DaftarMenuToolStripMenuItem.Text = "Daftar Menu"
+        Me.DaftarMenuToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.DaftarMenuToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.TA_VB_Tihen.My.Resources.Resources.logo
+        Me.PictureBox2.Location = New System.Drawing.Point(5, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(142, 78)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 27
+        Me.PictureBox2.TabStop = False
+        '
         'Pesan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(604, 544)
+        Me.ClientSize = New System.Drawing.Size(595, 544)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(MenuStrip1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.txtnama)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Hasil)
         Me.Controls.Add(Me.Cetak)
         Me.Controls.Add(Me.GroupBox1)
@@ -534,12 +548,13 @@ Partial Class Pesan
         Me.GroupBox1.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents txtKembali As System.Windows.Forms.Label
     Friend WithEvents lbljmlgreentea As System.Windows.Forms.Label
     Friend WithEvents txtjmlgreentea As System.Windows.Forms.TextBox
@@ -578,10 +593,10 @@ Partial Class Pesan
     Friend WithEvents checkChochoOreo As System.Windows.Forms.CheckBox
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
     Friend WithEvents btnReset As System.Windows.Forms.Button
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtnama As System.Windows.Forms.TextBox
+    Friend WithEvents TransaksiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MemberToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DaftarMenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 End Class

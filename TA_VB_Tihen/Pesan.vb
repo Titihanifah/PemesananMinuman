@@ -78,12 +78,12 @@
         txtjmlgreentea.Visible = True
     End Sub
     ' tombol kembali
-    Private Sub Kembali_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Me.Visible = False
-        Form1.Visible = True
-        DaftarMenu.Visible = False
-        LoginForm1.Visible = False
-    End Sub
+    'Private Sub Kembali_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    '    Me.Visible = False
+    '    Form1.Visible = True
+    '    DaftarMenu.Visible = False
+    '    LoginForm1.Visible = False
+    'End Sub
 
 
 
@@ -186,17 +186,17 @@
     End Sub
 
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Form1.Visible = True
         Me.Visible = False
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        DaftarMenu.Visible = True
-        Me.Visible = False
-    End Sub
+    'Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    '    DaftarMenu.Visible = True
+    '    Me.Visible = False
+    'End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Member.Visible = True
         Me.Visible = False
     End Sub
@@ -217,5 +217,15 @@
     Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtnama.TextChanged
        
 
+    End Sub
+
+    Private Sub TransaksiToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TransaksiToolStripMenuItem.Click
+        Me.Visible = True
+
+    End Sub
+
+    Private Sub MemberToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MemberToolStripMenuItem.Click
+        Me.Visible = False
+        Member.Visible = True
     End Sub
 End Class

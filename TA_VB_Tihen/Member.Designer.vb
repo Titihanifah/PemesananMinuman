@@ -22,158 +22,149 @@ Partial Class Member
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.satu = New System.Windows.Forms.TabControl
-        Me.Tambah = New System.Windows.Forms.TabPage
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.DaftarMenu = New System.Windows.Forms.Button
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.btnSubmit = New System.Windows.Forms.Button
-        Me.Input = New System.Windows.Forms.GroupBox
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox
-        Me.lblNotelp = New System.Windows.Forms.Label
-        Me.lblAlamat = New System.Windows.Forms.Label
-        Me.lblEmail = New System.Windows.Forms.Label
-        Me.txtnama = New System.Windows.Forms.TextBox
-        Me.lblTempat = New System.Windows.Forms.Label
-        Me.lblNama = New System.Windows.Forms.Label
-        Me.txtNotelp = New System.Windows.Forms.TextBox
-        Me.alamat = New System.Windows.Forms.RichTextBox
-        Me.txtemail = New System.Windows.Forms.TextBox
-        Me.dtpttl = New System.Windows.Forms.DateTimePicker
-        Me.txttempat = New System.Windows.Forms.TextBox
+        Dim MenuStrip1 As System.Windows.Forms.MenuStrip
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Member))
         Me.lbltgl = New System.Windows.Forms.Label
-        Me.Label11 = New System.Windows.Forms.Label
-        Me.Label10 = New System.Windows.Forms.Label
-        Me.Label9 = New System.Windows.Forms.Label
-        Me.TextBox7 = New System.Windows.Forms.TextBox
-        Me.TextBox8 = New System.Windows.Forms.TextBox
-        Me.TabPage2 = New System.Windows.Forms.TabPage
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button4 = New System.Windows.Forms.Button
-        Me.Button5 = New System.Windows.Forms.Button
+        Me.txttempat = New System.Windows.Forms.TextBox
+        Me.dtpttl = New System.Windows.Forms.DateTimePicker
+        Me.txtemail = New System.Windows.Forms.TextBox
+        Me.alamat = New System.Windows.Forms.RichTextBox
+        Me.txtNotelp = New System.Windows.Forms.TextBox
+        Me.lblNama = New System.Windows.Forms.Label
+        Me.lblTempat = New System.Windows.Forms.Label
+        Me.txtnama = New System.Windows.Forms.TextBox
+        Me.lblEmail = New System.Windows.Forms.Label
+        Me.lblAlamat = New System.Windows.Forms.Label
+        Me.lblNotelp = New System.Windows.Forms.Label
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.Input = New System.Windows.Forms.GroupBox
+        Me.textbox = New System.Windows.Forms.Label
+        Me.txtPoin = New System.Windows.Forms.TextBox
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox
+        Me.txtId = New System.Windows.Forms.TextBox
+        Me.Label7 = New System.Windows.Forms.Label
+        Me.Label1 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
-        Me.Tampilkan = New System.Windows.Forms.Button
-        Me.rtbHasil = New System.Windows.Forms.RichTextBox
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox
-        Me.satu.SuspendLayout()
-        Me.Tambah.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.txtNamaLengkap = New System.Windows.Forms.TextBox
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.txtTelepon = New System.Windows.Forms.TextBox
+        Me.txtAlamat = New System.Windows.Forms.RichTextBox
+        Me.txtEmailC = New System.Windows.Forms.TextBox
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker
+        Me.txtTempatLahir = New System.Windows.Forms.TextBox
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.btnSubmit = New System.Windows.Forms.Button
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.MemberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.DaftarMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.MinumanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.TopingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.KaryawanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        MenuStrip1 = New System.Windows.Forms.MenuStrip
         Me.Input.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'satu
+        'lbltgl
         '
-        Me.satu.Controls.Add(Me.Tambah)
-        Me.satu.Controls.Add(Me.TabPage2)
-        Me.satu.Location = New System.Drawing.Point(0, -2)
-        Me.satu.Name = "satu"
-        Me.satu.SelectedIndex = 0
-        Me.satu.Size = New System.Drawing.Size(358, 473)
-        Me.satu.TabIndex = 0
+        Me.lbltgl.AutoSize = True
+        Me.lbltgl.Location = New System.Drawing.Point(4, 78)
+        Me.lbltgl.Name = "lbltgl"
+        Me.lbltgl.Size = New System.Drawing.Size(0, 13)
+        Me.lbltgl.TabIndex = 18
         '
-        'Tambah
+        'txttempat
         '
-        Me.Tambah.Controls.Add(Me.Button2)
-        Me.Tambah.Controls.Add(Me.Button1)
-        Me.Tambah.Controls.Add(Me.DaftarMenu)
-        Me.Tambah.Controls.Add(Me.PictureBox1)
-        Me.Tambah.Controls.Add(Me.Label1)
-        Me.Tambah.Controls.Add(Me.btnSubmit)
-        Me.Tambah.Controls.Add(Me.Input)
-        Me.Tambah.Controls.Add(Me.Label11)
-        Me.Tambah.Controls.Add(Me.Label10)
-        Me.Tambah.Controls.Add(Me.Label9)
-        Me.Tambah.Controls.Add(Me.TextBox7)
-        Me.Tambah.Controls.Add(Me.TextBox8)
-        Me.Tambah.Location = New System.Drawing.Point(4, 22)
-        Me.Tambah.Name = "Tambah"
-        Me.Tambah.Padding = New System.Windows.Forms.Padding(3)
-        Me.Tambah.Size = New System.Drawing.Size(350, 447)
-        Me.Tambah.TabIndex = 0
-        Me.Tambah.Text = "Tambah Member"
-        Me.Tambah.UseVisualStyleBackColor = True
+        Me.txttempat.Location = New System.Drawing.Point(104, 47)
+        Me.txttempat.Name = "txttempat"
+        Me.txttempat.Size = New System.Drawing.Size(168, 20)
+        Me.txttempat.TabIndex = 28
         '
-        'Button2
+        'dtpttl
         '
-        Me.Button2.Location = New System.Drawing.Point(255, 32)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(63, 23)
-        Me.Button2.TabIndex = 46
-        Me.Button2.Text = "Daftar Menu"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.dtpttl.Location = New System.Drawing.Point(103, 73)
+        Me.dtpttl.Name = "dtpttl"
+        Me.dtpttl.Size = New System.Drawing.Size(168, 20)
+        Me.dtpttl.TabIndex = 36
         '
-        'Button1
+        'txtemail
         '
-        Me.Button1.Location = New System.Drawing.Point(185, 31)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(64, 23)
-        Me.Button1.TabIndex = 45
-        Me.Button1.Text = "Order"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.txtemail.Location = New System.Drawing.Point(104, 99)
+        Me.txtemail.Name = "txtemail"
+        Me.txtemail.Size = New System.Drawing.Size(168, 20)
+        Me.txtemail.TabIndex = 30
         '
-        'DaftarMenu
+        'alamat
         '
-        Me.DaftarMenu.Location = New System.Drawing.Point(117, 31)
-        Me.DaftarMenu.Name = "DaftarMenu"
-        Me.DaftarMenu.Size = New System.Drawing.Size(62, 23)
-        Me.DaftarMenu.TabIndex = 44
-        Me.DaftarMenu.Text = "Home"
-        Me.DaftarMenu.UseVisualStyleBackColor = True
+        Me.alamat.Location = New System.Drawing.Point(103, 164)
+        Me.alamat.Name = "alamat"
+        Me.alamat.Size = New System.Drawing.Size(169, 67)
+        Me.alamat.TabIndex = 34
+        Me.alamat.Text = ""
         '
-        'PictureBox1
+        'txtNotelp
         '
-        Me.PictureBox1.Image = Global.TA_VB_Tihen.My.Resources.Resources.logo
-        Me.PictureBox1.Location = New System.Drawing.Point(22, 31)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(77, 56)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 43
-        Me.PictureBox1.TabStop = False
+        Me.txtNotelp.Location = New System.Drawing.Point(104, 129)
+        Me.txtNotelp.Name = "txtNotelp"
+        Me.txtNotelp.Size = New System.Drawing.Size(168, 20)
+        Me.txtNotelp.TabIndex = 32
         '
-        'Label1
+        'lblNama
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Minion Pro", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(128, 58)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(190, 29)
-        Me.Label1.TabIndex = 42
-        Me.Label1.Text = "Input Data Member"
+        Me.lblNama.AutoSize = True
+        Me.lblNama.Location = New System.Drawing.Point(4, 21)
+        Me.lblNama.Name = "lblNama"
+        Me.lblNama.Size = New System.Drawing.Size(0, 13)
+        Me.lblNama.TabIndex = 13
         '
-        'btnSubmit
+        'lblTempat
         '
-        Me.btnSubmit.Location = New System.Drawing.Point(132, 398)
-        Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.Size = New System.Drawing.Size(75, 23)
-        Me.btnSubmit.TabIndex = 41
-        Me.btnSubmit.Text = "Submit"
-        Me.btnSubmit.UseVisualStyleBackColor = True
+        Me.lblTempat.AutoSize = True
+        Me.lblTempat.Location = New System.Drawing.Point(4, 50)
+        Me.lblTempat.Name = "lblTempat"
+        Me.lblTempat.Size = New System.Drawing.Size(0, 13)
+        Me.lblTempat.TabIndex = 15
         '
-        'Input
+        'txtnama
         '
-        Me.Input.Controls.Add(Me.CheckBox1)
-        Me.Input.Controls.Add(Me.lblNotelp)
-        Me.Input.Controls.Add(Me.lblAlamat)
-        Me.Input.Controls.Add(Me.lblEmail)
-        Me.Input.Controls.Add(Me.txtnama)
-        Me.Input.Controls.Add(Me.lblTempat)
-        Me.Input.Controls.Add(Me.lblNama)
-        Me.Input.Controls.Add(Me.txtNotelp)
-        Me.Input.Controls.Add(Me.alamat)
-        Me.Input.Controls.Add(Me.txtemail)
-        Me.Input.Controls.Add(Me.dtpttl)
-        Me.Input.Controls.Add(Me.txttempat)
-        Me.Input.Controls.Add(Me.lbltgl)
-        Me.Input.Location = New System.Drawing.Point(29, 103)
-        Me.Input.Name = "Input"
-        Me.Input.Size = New System.Drawing.Size(288, 272)
-        Me.Input.TabIndex = 38
-        Me.Input.TabStop = False
-        Me.Input.Text = "Input"
+        Me.txtnama.Location = New System.Drawing.Point(104, 18)
+        Me.txtnama.Name = "txtnama"
+        Me.txtnama.Size = New System.Drawing.Size(168, 20)
+        Me.txtnama.TabIndex = 26
+        '
+        'lblEmail
+        '
+        Me.lblEmail.AutoSize = True
+        Me.lblEmail.Location = New System.Drawing.Point(4, 106)
+        Me.lblEmail.Name = "lblEmail"
+        Me.lblEmail.Size = New System.Drawing.Size(0, 13)
+        Me.lblEmail.TabIndex = 20
+        '
+        'lblAlamat
+        '
+        Me.lblAlamat.AutoSize = True
+        Me.lblAlamat.Location = New System.Drawing.Point(4, 164)
+        Me.lblAlamat.Name = "lblAlamat"
+        Me.lblAlamat.Size = New System.Drawing.Size(0, 13)
+        Me.lblAlamat.TabIndex = 23
+        '
+        'lblNotelp
+        '
+        Me.lblNotelp.AutoSize = True
+        Me.lblNotelp.Location = New System.Drawing.Point(4, 136)
+        Me.lblNotelp.Name = "lblNotelp"
+        Me.lblNotelp.Size = New System.Drawing.Size(0, 13)
+        Me.lblNotelp.TabIndex = 22
         '
         'CheckBox1
         '
@@ -185,278 +176,369 @@ Partial Class Member
         Me.CheckBox1.Text = "Setuju dengan syarat dan ketentuan yang berlaku"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
-        'lblNotelp
+        'Input
         '
-        Me.lblNotelp.AutoSize = True
-        Me.lblNotelp.Location = New System.Drawing.Point(4, 136)
-        Me.lblNotelp.Name = "lblNotelp"
-        Me.lblNotelp.Size = New System.Drawing.Size(66, 13)
-        Me.lblNotelp.TabIndex = 22
-        Me.lblNotelp.Text = "No. Telepon"
+        Me.Input.Controls.Add(Me.textbox)
+        Me.Input.Controls.Add(Me.txtPoin)
+        Me.Input.Controls.Add(Me.ComboBox1)
+        Me.Input.Controls.Add(Me.txtId)
+        Me.Input.Controls.Add(Me.Label7)
+        Me.Input.Controls.Add(Me.Label1)
+        Me.Input.Controls.Add(Me.Label2)
+        Me.Input.Controls.Add(Me.Label3)
+        Me.Input.Controls.Add(Me.txtNamaLengkap)
+        Me.Input.Controls.Add(Me.Label4)
+        Me.Input.Controls.Add(Me.Label5)
+        Me.Input.Controls.Add(Me.txtTelepon)
+        Me.Input.Controls.Add(Me.txtAlamat)
+        Me.Input.Controls.Add(Me.txtEmailC)
+        Me.Input.Controls.Add(Me.DateTimePicker1)
+        Me.Input.Controls.Add(Me.txtTempatLahir)
+        Me.Input.Controls.Add(Me.Label6)
+        Me.Input.Location = New System.Drawing.Point(12, 98)
+        Me.Input.Name = "Input"
+        Me.Input.Size = New System.Drawing.Size(432, 304)
+        Me.Input.TabIndex = 44
+        Me.Input.TabStop = False
+        Me.Input.Text = "Input"
         '
-        'lblAlamat
+        'textbox
         '
-        Me.lblAlamat.AutoSize = True
-        Me.lblAlamat.Location = New System.Drawing.Point(4, 164)
-        Me.lblAlamat.Name = "lblAlamat"
-        Me.lblAlamat.Size = New System.Drawing.Size(39, 13)
-        Me.lblAlamat.TabIndex = 23
-        Me.lblAlamat.Text = "Alamat"
+        Me.textbox.AutoSize = True
+        Me.textbox.Location = New System.Drawing.Point(36, 276)
+        Me.textbox.Name = "textbox"
+        Me.textbox.Size = New System.Drawing.Size(28, 13)
+        Me.textbox.TabIndex = 40
+        Me.textbox.Text = "Poin"
         '
-        'lblEmail
+        'txtPoin
         '
-        Me.lblEmail.AutoSize = True
-        Me.lblEmail.Location = New System.Drawing.Point(4, 106)
-        Me.lblEmail.Name = "lblEmail"
-        Me.lblEmail.Size = New System.Drawing.Size(35, 13)
-        Me.lblEmail.TabIndex = 20
-        Me.lblEmail.Text = "E-mail"
+        Me.txtPoin.Location = New System.Drawing.Point(136, 269)
+        Me.txtPoin.Name = "txtPoin"
+        Me.txtPoin.Size = New System.Drawing.Size(168, 20)
+        Me.txtPoin.TabIndex = 41
         '
-        'txtnama
+        'ComboBox1
         '
-        Me.txtnama.Location = New System.Drawing.Point(104, 18)
-        Me.txtnama.Name = "txtnama"
-        Me.txtnama.Size = New System.Drawing.Size(168, 20)
-        Me.txtnama.TabIndex = 26
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(229, 19)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(75, 21)
+        Me.ComboBox1.TabIndex = 39
         '
-        'lblTempat
+        'txtId
         '
-        Me.lblTempat.AutoSize = True
-        Me.lblTempat.Location = New System.Drawing.Point(4, 50)
-        Me.lblTempat.Name = "lblTempat"
-        Me.lblTempat.Size = New System.Drawing.Size(69, 13)
-        Me.lblTempat.TabIndex = 15
-        Me.lblTempat.Text = "Tempat Lahir"
+        Me.txtId.Location = New System.Drawing.Point(139, 19)
+        Me.txtId.Name = "txtId"
+        Me.txtId.Size = New System.Drawing.Size(84, 20)
+        Me.txtId.TabIndex = 38
         '
-        'lblNama
+        'Label7
         '
-        Me.lblNama.AutoSize = True
-        Me.lblNama.Location = New System.Drawing.Point(4, 21)
-        Me.lblNama.Name = "lblNama"
-        Me.lblNama.Size = New System.Drawing.Size(80, 13)
-        Me.lblNama.TabIndex = 13
-        Me.lblNama.Text = "Nama Lengkap"
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(39, 22)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(18, 13)
+        Me.Label7.TabIndex = 37
+        Me.Label7.Text = "ID"
         '
-        'txtNotelp
+        'Label1
         '
-        Me.txtNotelp.Location = New System.Drawing.Point(104, 129)
-        Me.txtNotelp.Name = "txtNotelp"
-        Me.txtNotelp.Size = New System.Drawing.Size(168, 20)
-        Me.txtNotelp.TabIndex = 32
-        '
-        'alamat
-        '
-        Me.alamat.Location = New System.Drawing.Point(103, 164)
-        Me.alamat.Name = "alamat"
-        Me.alamat.Size = New System.Drawing.Size(169, 67)
-        Me.alamat.TabIndex = 34
-        Me.alamat.Text = ""
-        '
-        'txtemail
-        '
-        Me.txtemail.Location = New System.Drawing.Point(104, 99)
-        Me.txtemail.Name = "txtemail"
-        Me.txtemail.Size = New System.Drawing.Size(168, 20)
-        Me.txtemail.TabIndex = 30
-        '
-        'dtpttl
-        '
-        Me.dtpttl.Location = New System.Drawing.Point(103, 73)
-        Me.dtpttl.Name = "dtpttl"
-        Me.dtpttl.Size = New System.Drawing.Size(168, 20)
-        Me.dtpttl.TabIndex = 36
-        '
-        'txttempat
-        '
-        Me.txttempat.Location = New System.Drawing.Point(104, 47)
-        Me.txttempat.Name = "txttempat"
-        Me.txttempat.Size = New System.Drawing.Size(168, 20)
-        Me.txttempat.TabIndex = 28
-        '
-        'lbltgl
-        '
-        Me.lbltgl.AutoSize = True
-        Me.lbltgl.Location = New System.Drawing.Point(4, 78)
-        Me.lbltgl.Name = "lbltgl"
-        Me.lbltgl.Size = New System.Drawing.Size(48, 13)
-        Me.lbltgl.TabIndex = 18
-        Me.lbltgl.Text = "Tgl Lahir"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(341, -72)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(80, 13)
-        Me.Label11.TabIndex = 12
-        Me.Label11.Text = "Nama Lengkap"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(341, -43)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(69, 13)
-        Me.Label10.TabIndex = 16
-        Me.Label10.Text = "Tempat Lahir"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(341, -15)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(48, 13)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "Tgl Lahir"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(441, -46)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(168, 20)
-        Me.TextBox7.TabIndex = 27
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(441, -75)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(168, 20)
-        Me.TextBox8.TabIndex = 25
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.Button3)
-        Me.TabPage2.Controls.Add(Me.Button4)
-        Me.TabPage2.Controls.Add(Me.Button5)
-        Me.TabPage2.Controls.Add(Me.Label2)
-        Me.TabPage2.Controls.Add(Me.Tampilkan)
-        Me.TabPage2.Controls.Add(Me.rtbHasil)
-        Me.TabPage2.Controls.Add(Me.PictureBox2)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(350, 447)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Lihat Member"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(244, 19)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(76, 23)
-        Me.Button3.TabIndex = 49
-        Me.Button3.Text = "Daftar Menu"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(175, 19)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(63, 23)
-        Me.Button4.TabIndex = 48
-        Me.Button4.Text = "Order"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(102, 19)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(67, 23)
-        Me.Button5.TabIndex = 47
-        Me.Button5.Text = "Home"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(37, 166)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(66, 13)
+        Me.Label1.TabIndex = 22
+        Me.Label1.Text = "No. Telepon"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(123, 57)
+        Me.Label2.Location = New System.Drawing.Point(37, 194)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(150, 18)
-        Me.Label2.TabIndex = 45
-        Me.Label2.Text = "Lihat Data Member"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 23
+        Me.Label2.Text = "Alamat"
         '
-        'Tampilkan
+        'Label3
         '
-        Me.Tampilkan.Location = New System.Drawing.Point(109, 360)
-        Me.Tampilkan.Name = "Tampilkan"
-        Me.Tampilkan.Size = New System.Drawing.Size(75, 23)
-        Me.Tampilkan.TabIndex = 1
-        Me.Tampilkan.Text = "Tampilkan"
-        Me.Tampilkan.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(37, 136)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(35, 13)
+        Me.Label3.TabIndex = 20
+        Me.Label3.Text = "E-mail"
         '
-        'rtbHasil
+        'txtNamaLengkap
         '
-        Me.rtbHasil.Location = New System.Drawing.Point(18, 96)
-        Me.rtbHasil.Name = "rtbHasil"
-        Me.rtbHasil.Size = New System.Drawing.Size(306, 258)
-        Me.rtbHasil.TabIndex = 0
-        Me.rtbHasil.Text = ""
+        Me.txtNamaLengkap.Location = New System.Drawing.Point(137, 48)
+        Me.txtNamaLengkap.Name = "txtNamaLengkap"
+        Me.txtNamaLengkap.Size = New System.Drawing.Size(167, 20)
+        Me.txtNamaLengkap.TabIndex = 26
         '
-        'PictureBox2
+        'Label4
         '
-        Me.PictureBox2.Image = Global.TA_VB_Tihen.My.Resources.Resources.logo
-        Me.PictureBox2.Location = New System.Drawing.Point(18, 19)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(77, 56)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 44
-        Me.PictureBox2.TabStop = False
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(37, 80)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(69, 13)
+        Me.Label4.TabIndex = 15
+        Me.Label4.Text = "Tempat Lahir"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(37, 51)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(80, 13)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "Nama Lengkap"
+        '
+        'txtTelepon
+        '
+        Me.txtTelepon.Location = New System.Drawing.Point(137, 159)
+        Me.txtTelepon.Name = "txtTelepon"
+        Me.txtTelepon.Size = New System.Drawing.Size(168, 20)
+        Me.txtTelepon.TabIndex = 32
+        '
+        'txtAlamat
+        '
+        Me.txtAlamat.Location = New System.Drawing.Point(136, 194)
+        Me.txtAlamat.Name = "txtAlamat"
+        Me.txtAlamat.Size = New System.Drawing.Size(169, 67)
+        Me.txtAlamat.TabIndex = 34
+        Me.txtAlamat.Text = ""
+        '
+        'txtEmailC
+        '
+        Me.txtEmailC.Location = New System.Drawing.Point(137, 129)
+        Me.txtEmailC.Name = "txtEmailC"
+        Me.txtEmailC.Size = New System.Drawing.Size(168, 20)
+        Me.txtEmailC.TabIndex = 30
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(136, 103)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(168, 20)
+        Me.DateTimePicker1.TabIndex = 36
+        '
+        'txtTempatLahir
+        '
+        Me.txtTempatLahir.Location = New System.Drawing.Point(137, 77)
+        Me.txtTempatLahir.Name = "txtTempatLahir"
+        Me.txtTempatLahir.Size = New System.Drawing.Size(168, 20)
+        Me.txtTempatLahir.TabIndex = 28
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(37, 108)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(48, 13)
+        Me.Label6.TabIndex = 18
+        Me.Label6.Text = "Tgl Lahir"
+        '
+        'btnSubmit
+        '
+        Me.btnSubmit.Location = New System.Drawing.Point(44, 529)
+        Me.btnSubmit.Name = "btnSubmit"
+        Me.btnSubmit.Size = New System.Drawing.Size(60, 23)
+        Me.btnSubmit.TabIndex = 45
+        Me.btnSubmit.Text = "Tambah"
+        Me.btnSubmit.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(125, 529)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(54, 23)
+        Me.Button1.TabIndex = 48
+        Me.Button1.Text = "Edit"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(195, 529)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(65, 23)
+        Me.Button2.TabIndex = 49
+        Me.Button2.Text = "Hapus"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(284, 529)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(65, 23)
+        Me.Button3.TabIndex = 50
+        Me.Button3.Text = "Batal"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 405)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(432, 113)
+        Me.DataGridView1.TabIndex = 51
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.TA_VB_Tihen.My.Resources.Resources.logo
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(130, 88)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 53
+        Me.PictureBox1.TabStop = False
+        '
+        'MenuStrip1
+        '
+        MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TransaksiToolStripMenuItem, Me.MemberToolStripMenuItem, Me.DaftarMenuToolStripMenuItem, Me.KaryawanToolStripMenuItem})
+        MenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow
+        MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        MenuStrip1.Margin = New System.Windows.Forms.Padding(100, 10, 10, 10)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
+        MenuStrip1.Size = New System.Drawing.Size(565, 44)
+        MenuStrip1.TabIndex = 52
+        MenuStrip1.Text = "MenuStrip1"
+        '
+        'TransaksiToolStripMenuItem
+        '
+        Me.TransaksiToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.TransaksiToolStripMenuItem.Image = CType(resources.GetObject("TransaksiToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.TransaksiToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.TransaksiToolStripMenuItem.Margin = New System.Windows.Forms.Padding(150, 10, 10, 10)
+        Me.TransaksiToolStripMenuItem.Name = "TransaksiToolStripMenuItem"
+        Me.TransaksiToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.TransaksiToolStripMenuItem.Size = New System.Drawing.Size(83, 20)
+        Me.TransaksiToolStripMenuItem.Text = "Transaksi"
+        Me.TransaksiToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.TransaksiToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'MemberToolStripMenuItem
+        '
+        Me.MemberToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.MemberToolStripMenuItem.AutoToolTip = True
+        Me.MemberToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.MemberToolStripMenuItem.Image = Global.TA_VB_Tihen.My.Resources.Resources.member
+        Me.MemberToolStripMenuItem.Margin = New System.Windows.Forms.Padding(10)
+        Me.MemberToolStripMenuItem.Name = "MemberToolStripMenuItem"
+        Me.MemberToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.MemberToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.MemberToolStripMenuItem.Text = "Member"
+        Me.MemberToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.MemberToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'DaftarMenuToolStripMenuItem
+        '
+        Me.DaftarMenuToolStripMenuItem.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar
+        Me.DaftarMenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MinumanToolStripMenuItem, Me.TopingToolStripMenuItem})
+        Me.DaftarMenuToolStripMenuItem.Image = Global.TA_VB_Tihen.My.Resources.Resources.menu
+        Me.DaftarMenuToolStripMenuItem.Margin = New System.Windows.Forms.Padding(10)
+        Me.DaftarMenuToolStripMenuItem.Name = "DaftarMenuToolStripMenuItem"
+        Me.DaftarMenuToolStripMenuItem.RightToLeftAutoMirrorImage = True
+        Me.DaftarMenuToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
+        Me.DaftarMenuToolStripMenuItem.Text = "Daftar Menu"
+        Me.DaftarMenuToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.DaftarMenuToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal
+        '
+        'MinumanToolStripMenuItem
+        '
+        Me.MinumanToolStripMenuItem.Name = "MinumanToolStripMenuItem"
+        Me.MinumanToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.MinumanToolStripMenuItem.Text = "Minuman"
+        '
+        'TopingToolStripMenuItem
+        '
+        Me.TopingToolStripMenuItem.Name = "TopingToolStripMenuItem"
+        Me.TopingToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.TopingToolStripMenuItem.Text = "Toping"
+        '
+        'KaryawanToolStripMenuItem
+        '
+        Me.KaryawanToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LogoutToolStripMenuItem})
+        Me.KaryawanToolStripMenuItem.Image = Global.TA_VB_Tihen.My.Resources.Resources.username
+        Me.KaryawanToolStripMenuItem.Margin = New System.Windows.Forms.Padding(10)
+        Me.KaryawanToolStripMenuItem.Name = "KaryawanToolStripMenuItem"
+        Me.KaryawanToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.KaryawanToolStripMenuItem.Text = "     "
+        '
+        'LogoutToolStripMenuItem
+        '
+        Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'Member
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(357, 468)
-        Me.Controls.Add(Me.satu)
+        Me.ClientSize = New System.Drawing.Size(565, 573)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(MenuStrip1)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnSubmit)
+        Me.Controls.Add(Me.Input)
         Me.Name = "Member"
         Me.Text = "Member"
-        Me.satu.ResumeLayout(False)
-        Me.Tambah.ResumeLayout(False)
-        Me.Tambah.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Input.ResumeLayout(False)
         Me.Input.PerformLayout()
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage2.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents satu As System.Windows.Forms.TabControl
-    Friend WithEvents Tambah As System.Windows.Forms.TabPage
-    Friend WithEvents lblNotelp As System.Windows.Forms.Label
-    Friend WithEvents lblAlamat As System.Windows.Forms.Label
-    Friend WithEvents lblEmail As System.Windows.Forms.Label
-    Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents txtnama As System.Windows.Forms.TextBox
-    Friend WithEvents lblTempat As System.Windows.Forms.Label
-    Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents lblNama As System.Windows.Forms.Label
-    Friend WithEvents txtNotelp As System.Windows.Forms.TextBox
-    Friend WithEvents alamat As System.Windows.Forms.RichTextBox
-    Friend WithEvents txtemail As System.Windows.Forms.TextBox
-    Friend WithEvents dtpttl As System.Windows.Forms.DateTimePicker
-    Friend WithEvents txttempat As System.Windows.Forms.TextBox
     Friend WithEvents lbltgl As System.Windows.Forms.Label
-    Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
-    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
-    Friend WithEvents Input As System.Windows.Forms.GroupBox
+    Friend WithEvents txttempat As System.Windows.Forms.TextBox
+    Friend WithEvents dtpttl As System.Windows.Forms.DateTimePicker
+    Friend WithEvents txtemail As System.Windows.Forms.TextBox
+    Friend WithEvents alamat As System.Windows.Forms.RichTextBox
+    Friend WithEvents txtNotelp As System.Windows.Forms.TextBox
+    Friend WithEvents lblNama As System.Windows.Forms.Label
+    Friend WithEvents lblTempat As System.Windows.Forms.Label
+    Friend WithEvents txtnama As System.Windows.Forms.TextBox
+    Friend WithEvents lblEmail As System.Windows.Forms.Label
+    Friend WithEvents lblAlamat As System.Windows.Forms.Label
+    Friend WithEvents lblNotelp As System.Windows.Forms.Label
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
-    Friend WithEvents btnSubmit As System.Windows.Forms.Button
-    Friend WithEvents Tampilkan As System.Windows.Forms.Button
-    Friend WithEvents rtbHasil As System.Windows.Forms.RichTextBox
+    Friend WithEvents Input As System.Windows.Forms.GroupBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtNamaLengkap As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents txtTelepon As System.Windows.Forms.TextBox
+    Friend WithEvents txtAlamat As System.Windows.Forms.RichTextBox
+    Friend WithEvents txtEmailC As System.Windows.Forms.TextBox
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents txtTempatLahir As System.Windows.Forms.TextBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents txtId As System.Windows.Forms.TextBox
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents textbox As System.Windows.Forms.Label
+    Friend WithEvents txtPoin As System.Windows.Forms.TextBox
+    Friend WithEvents btnSubmit As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents DaftarMenu As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents TransaksiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MemberToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DaftarMenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents MinumanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents TopingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents KaryawanToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LogoutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -24,3 +24,39 @@ C:\Users\titih\OneDrive\Kuliah\semester 4\visual\TA_VB_Tihen\TA_VB_Tihen\obj\Deb
 C:\Users\titih\OneDrive\Kuliah\semester 4\visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Member.resources
 C:\Users\titih\OneDrive\Kuliah\semester 4\visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Pesan.resources
 C:\Users\titih\OneDrive\Kuliah\semester 4\visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.splashScreen.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.exe
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.xml
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.pdb
+F:\KL VB\TA\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.exe
+F:\KL VB\TA\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.pdb
+F:\KL VB\TA\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.xml
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\ResolveAssemblyReference.cache
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.DaftarMenu.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Form1.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.LoginForm1.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Member.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Resources.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Pesan.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.splashScreen.resources
+F:\KL VB\TA\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.vbproj.GenerateResource.Cache
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.exe
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.xml
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.pdb
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\ResolveAssemblyReference.cache
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Copyan.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Form1.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.LoginForm1.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Member.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Resources.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Pesan.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.splashScreen.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.vbproj.GenerateResource.Cache
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.exe
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.pdb
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.xml
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Toping.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Akun.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Karyawan.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Minuman.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Transaksi.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.BerandaKaryawan.resources
