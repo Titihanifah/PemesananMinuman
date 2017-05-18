@@ -8,7 +8,7 @@ Module koneksi
     Public simpan, ubah, hapus As String
     Public Sub bukaDB()
         Dim SQLConn As String
-        SQLConn = "server=localhost;Uid=root;Pwd=;Database=chachamilktea; Convert Zero DateTime = True"
+        SQLConn = "server=localhost;Uid=root;Pwd=;Database=chachamilktea1; Convert Zero DateTime = True"
         Conn = New MySqlConnection(SQLConn)
         If Conn.State = ConnectionState.Closed Then
             Conn.Open()

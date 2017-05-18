@@ -48,7 +48,6 @@ E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.LoginForm1.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Member.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Resources.resources
-E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Pesan.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.splashScreen.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.vbproj.GenerateResource.Cache
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\bin\Debug\TA_VB_Tihen.exe
@@ -60,3 +59,6 @@ E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Minuman.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.Transaksi.resources
 E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.BerandaKaryawan.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.BerandaAdmin.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.MinumanAdmin.resources
+E:\UGM\KOMSI\semester4\praktikum\Visual\TA_VB_Tihen\TA_VB_Tihen\obj\Debug\TA_VB_Tihen.TopingAdmin.resources
